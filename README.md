@@ -30,5 +30,8 @@ Licensed under [MIT](LICENSE)
 ## Contributing
 Please read the [Contributing Guide](.github/CONTRIBUTING.md).
 
+## Related Projects
+- Inspired by [serenity-rs/serenity](https://github.com/serenity-rs/serenity)
+
 ## Alternatives
 - [nocotan/rmessenger](https://github.com/nocotan/rmessenger)
