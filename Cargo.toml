@@ -1,5 +1,13 @@
+[package]
+name = "messenger-rs"
+version = "0.1.0"
+authors = ["Johan Planchon <johan.planchon@simplx.fr>"]
+edition = "2018"
+
 [workspace]
-members = [
-	'mfw',
-	'falus-bot'
-]
+members = ["./", "examples/falus-bot"]
+
+[dependencies]
+tokio = { version = "", features = ['macros'], default-features = false }
+hyper = "0.13"
+hyper-rustls = "0.21"
