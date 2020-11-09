@@ -1,25 +1,15 @@
-# {rust-project-template}
-![GitHub workflow Status](https://img.shields.io/github/workflow/status/{Project.repo_user}/{Project.repo_name}/{Project.repo_branch}?style=flat-square)
-![License GitHub](https://img.shields.io/github/license/{Project.repo_user}/{Project.repo_name}?style=flat-square)
-![GitHub release (lasted SemVer)](https://img.shields.io/github/release/{Project.repo_user}/{Project.repo_name}?sort=semver&style=flat-square)
-[![Doc](https://img.shields.io/badge/documentation-rustdoc-purple?style=flat-square)](https://{Project.repo_user}.github.io/{Project.repo_name})
-
-{Project.description}
-
-<!--
-| OS      | Build Status |
-| ------- | ------------ |
-| Linux   |              |
-| Windows |              |
-| OSX     |              |
--->
+# messenger-rs
+![GitHub workflow Status](https://img.shields.io/github/workflow/status/joxcat/messenger-rs/master?style=flat-square)
+![License GitHub](https://img.shields.io/github/license/joxcat/messenger-rs?style=flat-square)
+![GitHub release (latest)](https://img.shields.io/github/release/joxcat/messenger-rs?sort=semver&style=flat-square)
+[![Doc](https://img.shields.io/badge/documentation-rustdoc-purple?style=flat-square)](https://joxcat.github.io/messenger-rs)
 
 ## Exemple
 ```rust
 // {Insert small example here}
 ```
 
-For fuller examples, take a look at [`examples/some_example.rs`](examples/some_example.rs).
+For fuller examples, take a look at [`examples/falus-bot/`](examples/falus-bot/).
 
 ## Installation
 Add the following to your Cargo.toml file:
@@ -27,46 +17,18 @@ Add the following to your Cargo.toml file:
 ```toml
 [dependencies]
 # If not published on crates.io
-{Project.name} = { git = "{Project.repo_url}" }
+messenger_rs = { git = "https://github.com/joxcat/messenger-rs.git" }
 # Else
-# {Project.name} = "SemVer"
+# messenger_rs = "0.1"
 ```
-
-### Features
-Features can be enabled or disabled by configuring the library through Cargo.toml:
-
-```toml
-[dependencies.{Project.name}]
-default-features = false
-features = ["pick", "your", "feature", "names", "here"]
-
-```
-
-The default features are: {Features list}.
-
-The following is a full list of features:
-- **feature:** description
-
-### Dependencies
-{External dependencies if needed}
 
 ## Roadmap
-- [  ] Future feature to be added
-
-## FAQ
-{Insert common errors and response to questions}
 
 ## License
-Licensed under [Unlicense](LICENSE)
+Licensed under [MIT](LICENSE)
 
 ## Contributing
 Please read the [Contributing Guide](.github/CONTRIBUTING.md).
 
-### Contributors
-- {Someone.name} - <Someone.github>
-
-## Related Projects
-- {Some related project}
-
 ## Alternatives
-{Insert alternatives if it exist somes}
+- [nocotan/rmessenger](https://github.com/nocotan/rmessenger)
